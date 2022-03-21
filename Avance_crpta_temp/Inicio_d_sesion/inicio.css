@@ -1,0 +1,28 @@
+*{
+	margin: 0%;
+	padding: 0%;
+}
+
+
+.txtdwlcm{
+	margin:10% 40% 10%;
+}
+
+.botones{
+	margin:10% 42% 10%;		
+}
+
+#mailtxt{
+	padding-left: 25%;
+}
+
+#passwdtxt{
+	padding-left: 21%;
+}
+
+
+#submit{
+	margin-top: 5%;
+	margin-left: 25%;
+	padding: 0% 2%;
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="./registro.css">
+	<script src="./registro.js"></script>
+	<title>ATT</title>
+</head>
+<body>
+	<div class = "txtrgtro">
+
+		<h1 id="reg"> Registro </h1>
+	</div>
+	<div class = "top">
+		<label id="prenomtxt">Ingresa tu Nombre</label>
+		<label id="meiltxt">Ingresa tu E-Mail</label><br>
+
+		<input type="text" name="prenom" id="prenom" onblur="getPrenom()">
+		<input type="email" name="mail" id="mail" onblur="getEmail()"><br>
+
+	</div>
+	<div class="mid">
+		
+		<label id="nomtxt">Ingresa tu Apellido</label>
+		<label id="passwdtxt">Ingresa una Contraseña</label><br>
+
+		<input type="text" name="nom" id="nom" onblur="getNom()">
+		<input type="password" name="passwd" id="passwd" onblur="getPasswd()"><br>
+
+	</div>
+
+	<div class="buttom">
+
+		<label id="mailtxt">Intitucion</label>
+		<label id="passwd2txt">Confirma tu Contraseña </label> <br>
+
+		<input type="text" name="institcion" id="institcion" onblur="getInstitucion()">
+		<input type="password" name="passwd" id="passwd2" onblur="getPasswd2()"><br>
+		
+	</div>
+	<div class="fin">
+		<input type="submit" name="submit" id="submit" value="ingresar" onclick="mostron()">		
+	</div>
+
+</body>
+</html>
