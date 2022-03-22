@@ -1,28 +1,54 @@
 *{
 	margin: 0%;
 	padding: 0%;
+	background-color: #14213D;
 }
 
+.heather{
 
+}
 .txtdwlcm{
-	margin:10% 40% 10%;
+	margin:0% 0% 10%;
+	padding: 5% 40% 2%;	
+	background-color: #14213D;
 }
 
 .botones{
-	margin:10% 42% 10%;		
+	margin:10% 45% 10% 40%;	
+	background-color: #FCA311;
+
 }
 
+#IdS{
+	color: #ffffff;
+	font-family: "Quicksand", sans-serif;
+}
+
+
 #mailtxt{
-	padding-left: 25%;
+	padding-left: 38%;
+	background-color: #FCA311;
+}
+
+#mail{
+	margin-left: 13%;
+	background-color: #FCA311;
 }
 
 #passwdtxt{
-	padding-left: 21%;
+	padding-left: 35%;
+	background-color: #FCA311;
+}
+
+#passwd{
+	margin-left: 13%;	
+	background-color: #FCA311;
 }
 
 
 #submit{
 	margin-top: 5%;
-	margin-left: 25%;
+	margin-left: 40%;
 	padding: 0% 2%;
+	background-color: #FCA311;
 }
