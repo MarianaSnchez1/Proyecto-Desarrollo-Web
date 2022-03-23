@@ -1,0 +1,76 @@
+*{
+    font-family: "Quicksand", sans-serif !important;
+    margin: 0;
+    padding: 0;
+}
+
+.titulo {
+    box-sizing: border-box;
+    font-family: "Quicksand", sans-serif;
+    color: #14213D;
+    font-weight: 700;
+    line-height: 90px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+h5{
+    font-family: "Quicksand", sans-serif;
+}
+/*
+h1{
+    position: relative;
+    text-transform: uppercase;
+    color: transparent;
+    font-weight: 900;
+    font-family: 'Catamaran', sans-serif;
+    font-style: italic;
+}
+h1:after {
+    content: 'STUDIA';
+    position: absolute;
+    left: -10px;
+    top: -2px;
+    color: #14213D;
+    -webkit-clip-path: polygon(0 25%, 100% 65%, 100% 100%, 0% 100%);
+    clip-path: polygon(0 25%, 100% 65%, 100% 100%, 0% 100%);
+}
+h1:before {
+    content: 'STUDIA';
+    position: absolute;
+    color: #E5E5E5;
+    -webkit-clip-path: polygon(0 0, 110% 0, 100% 65%, 0 25%);
+    clip-path: polygon(0 0, 110% 0, 100% 65%, 0 25%);
+}
+*/
+div.inicio-sesion{
+    line-height: 40px;
+    float: right;
+    margin-top: 0px;
+}
+
+#b1{
+    background-color: #14213D;
+    line-height: 40px;
+}
+#b2{
+    color: #14213D;
+}
+#b3{
+    background-color: #14213D;
+    line-height: 40px;
+}
+#b4{
+    background-color: #14213D;
+    line-height: 40px;
+}
+#b5{
+    background-color: #14213D;
+    line-height: 40px;
+}
+div.card-header{
+    background-color: #FCA311;
+}
+div.card{
+    background-color: #E5E5E5;
+}
