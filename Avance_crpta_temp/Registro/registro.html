@@ -8,18 +8,23 @@
 	<title>ATT</title>
 </head>
 <body>
+	<!--"Titulo"-->
 	<div class = "txtrgtro">
 
 		<h1 id="reg"> Registro </h1>
 	</div>
+
+	<!--"Parte de arriba"-->
 	<div class = "top">
 		<label id="prenomtxt">Ingresa tu Nombre</label>
-		<label id="meiltxt">Ingresa tu E-Mail</label><br>
+		<label id="mailtxt">Ingresa tu E-Mail</label><br>
 
 		<input type="text" name="prenom" id="prenom" onblur="getPrenom()">
 		<input type="email" name="mail" id="mail" onblur="getEmail()"><br>
 
 	</div>
+
+	<!--"Parte de medio"-->
 	<div class="mid">
 		
 		<label id="nomtxt">Ingresa tu Apellido</label>
@@ -30,15 +35,18 @@
 
 	</div>
 
+	<!--"Parte de abajo"-->
 	<div class="buttom">
 
-		<label id="mailtxt">Intitucion</label>
+		<label id="instituciontxt">Intitucion</label>
 		<label id="passwd2txt">Confirma tu Contraseña </label> <br>
 
-		<input type="text" name="institcion" id="institcion" onblur="getInstitucion()">
+		<input type="text" name="institucion" id="institucion" onblur="getInstitucion()">
 		<input type="password" name="passwd" id="passwd2" onblur="getPasswd2()"><br>
 		
 	</div>
+
+	<!--"Boton submit"-->
 	<div class="fin">
 		<input type="submit" name="submit" id="submit" value="ingresar" onclick="mostron()">		
 	</div>

@@ -5,74 +5,138 @@
 
 /*Cajas*/
 
-.txtrgtro{
-	margin-top: 5%;
-	padding-left: 45%;
+div.txtrgtro{
+	margin: 0% 0%;
+	padding: 2% 45% 2% 40%;
+	background-color: #14213D;
+	color: #ffffff;
+	font-family: "Quicksand", sans-serif;
 }
 
 
-.top{
-	margin-top: 10%;
-	padding-left: 38%;
+div.top{
+	margin: 0% 0%;
+	padding: 1% 35% 0% 30%;
+	background-color: #FCA311;
+	color: #ffffff;
+	font-family: "Quicksand", sans-serif;
+}
+
+div.mid{
+	margin: 0% 0%;
+	padding: 1% 35% 0% 30%;
+	background-color: #FCA311;
+	color: #ffffff;
+	font-family: "Quicksand", sans-serif;
 
 }
 
-.mid{
-	margin-top: 2%;
-	padding-left: 38%;
+div.buttom{	
+	margin: 0% 0%;
+	padding: 1% 35% 0% 30%;
+	background-color: #FCA311;
+	color: #ffffff;
+	font-family: "Quicksand", sans-serif;
 
 }
 
-.buttom{
-	margin-top: 2%;
-	padding-left: 38%;
+div.fin{
+	margin: 0% 0%;
+	padding: 1% 35% 0% 30%;
+	background-color: #FCA311;
+	color: #ffffff;
+	font-family: "Quicksand", sans-serif;
 
 }
 
-.fin{
-	margin-top: 2%;
-	padding-left: 38%;
+
+/*Textos*/
+
+h1#reg{
+	position: relative;
+	left: 20%;
+
 }
+
+
+#prenomtxt{
+	position: relative;
+	left: 17%;
+}
+
+#mailtxt{
+	position: relative;
+	left: 25%;
+}
+
+#nomtxt{
+	position: relative;
+	left: 17%;
+
+}
+
+#passwdtxt{
+	position: relative;
+	left: 25%;
+
+}
+
+
+#instituciontxt{
+	position: relative;
+	left: 17%;
+
+}
+
+#passwd2txt{
+	position: relative;
+	left: 37%;
+
+}
+
+
 
 
 /*Elementos individuales*/
 
 
-#reg{
-	margin:20% 0% 0% 0% ;
+#prenom{
+	position: relative;
+	left: 17%;
+}
+
+#mail{
+	position: relative;
+	left: 17%;
+}
+
+#nom{
+	position: relative;
+	left: 17%;
+}
+
+#passwd{
+	position: relative;
+	left: 17%;
+
 }
 
 
-#prenomtxt{
-	margin: 0% 0% 0% 0% ;
+#institucion{
+	position: relative;
+	left: 17%;
+
 }
 
-#meiltxt{
-	margin: 0% 0% 0% 4.5% ;
+#passwd2{
+	position: relative;
+	left: 17%;
+
 }
 
-#nomtxt{
-	margin: 0% 0% 0% 0%;
-}
-
-#passwdtxt{
-	margin: 0% 0% 0% 4.5% ;
-}
-
-
-#mailtxt{
-	margin: 0% 0% 0% 0% ;
-}
-
-#passwd2txt{
-	margin: 0% 0% 0% 11% ;
-}
 
 #submit{
-	margin: 0% 0% 0% 16% ;
+	position: relative;
+	left: 45%;
+
 }
-
-
-
-
-
