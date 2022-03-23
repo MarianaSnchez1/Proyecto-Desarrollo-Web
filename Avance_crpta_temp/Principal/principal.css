@@ -1,19 +1,20 @@
 *{
-    font-family: "Quicksand", sans-serif !important;
     margin: 0;
     padding: 0;
 }
 
 .titulo {
     box-sizing: border-box;
-    font-family: "Quicksand", sans-serif;
     color: #14213D;
     font-weight: 700;
     line-height: 90px;
     text-align: center;
     margin-top: 20px;
     margin-bottom: 50px;
+    font-family: "Cooper Black", sans-serif;
+    text-shadow: 0px 0px 10px #455883;
 }
+
 h5{
     font-family: "Quicksand", sans-serif;
 }
