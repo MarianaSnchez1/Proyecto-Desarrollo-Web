@@ -7,16 +7,19 @@
 	<script src="./inicio.js"></script>
 	<title>ATT</title>
 </head>
+
 <body>
 	<div class = "txtdwlcm">
 
-		<h1> Inicio de sesion </h1>
+		<h1 id="IdS"> Inicio de sesion </h1>
 	</div>
 	<div class = "botones">
 		<label id="mailtxt">E-Mail</label><br>
 		<input type="email" name="mail" id="mail" onblur="getEmail()"><br>
+
 		<label id="passwdtxt">Password</label> <br>
 		<input type="password" name="passwd" id="passwd" onblur="getPasswd()"><br>
+
 		<input type="submit" name="submit" id="submit" value="entrar" onclick="mostron()">
 	</div>
 

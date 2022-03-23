@@ -1,28 +1,69 @@
 *{
 	margin: 0%;
 	padding: 0%;
+	background-color: #ffffff;
 }
-
 
 .txtdwlcm{
-	margin:10% 40% 10%;
+	margin:0% 0% 0%;
+	padding: 2% 40% 2%;	
+	background-color: #14213D;
 }
 
-.botones{
-	margin:10% 42% 10%;		
+div.botones{
+	margin:auto;
+	padding:0% 0% 0% 0%;	
+	background-color: #FCA311;
+
 }
 
+
+/* Texto */
+#IdS{ 
+	color: #ffffff;
+	font-family: "Quicksand", sans-serif;
+	background-color: #14213D;
+}
+
+
+/* Texto */
 #mailtxt{
-	padding-left: 25%;
+	position: relative;
+	left: 45%;
+	background-color: #FCA311;
+	color: #ffffff;
+	font-family: "Quicksand", sans-serif;
 }
 
+
+#mail{
+	position: relative;
+	left: 41%;
+	background-color: #ffffff;
+}
+
+
+/* Texto */
 #passwdtxt{
-	padding-left: 21%;
+	position: relative;
+	left: 44.5%;
+	background-color: #FCA311;
+	color: #ffffff;
+	font-family: "Quicksand", sans-serif;
+}
+
+
+#passwd{
+	position: relative;
+	left: 41%;
+	background-color: #ffffff;
 }
 
 
 #submit{
-	margin-top: 5%;
-	margin-left: 25%;
-	padding: 0% 2%;
+	position: relative;
+	top: 10%;
+	left: 45.5%;
+	background-color: #FCA311;
+
 }
