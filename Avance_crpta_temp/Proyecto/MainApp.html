@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <title>Estudia</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="cuadrado" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="CSS/style_main.css">
+
+</head>
+  <body>
+
+    <div class="top_bar">
+      <div class="icons">
+        <div class="icons_inbox">
+          <a href="#"><img src="CSS/Assets/inbox_icon.png" alt="inbox icon" class="inbox_bot"></a>
+          <a href="#"><img src="CSS/Assets/inbox_icon_a.png" alt="inbox icon" class="inbox_top"></a>
+        </div>
+
+        <div class="icons_profile">
+          <a href="#"><img src="CSS/Assets/profile_icon.png" alt="profile icon" class="profile_bot"></a>
+          <a href="#"><img src="CSS/Assets/profile_icon_a.png"  class="profile_top"></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="app">
+      <div class="calendario">
+        <div class="container">
+        <div class="calendar">
+          <div class="month">
+            <i class="fas fa-angle-left prev"></i>
+            <div class="date">
+              <h1></h1>
+              <p></p>
+            </div>
+            <i class="fas fa-angle-right next"></i>
+          </div>
+          <div class="weekdays">
+            <div>Sun</div>
+            <div>Mon</div>
+            <div>Tue</div>
+            <div>Wed</div>
+            <div>Thu</div>
+            <div>Fri</div>
+            <div>Sat</div>
+          </div>
+          <div class="days"></div>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="menu">
+        <div class="container_menu">
+          <div class="tab">
+            <button class="tablinks" onclick="openCity(event, 'Apuntes')">Apuntes</button>
+            <button class="tablinks" onclick="openCity(event, 'Playlist')">Playlist</button>
+            <button class="tablinks" onclick="openCity(event, 'Libros')">Libros</button>
+            <button class="tablinks" onclick="openCity(event, 'Tareas')">Tareas</button>
+            <button class="tablinks" onclick="openCity(event, 'Social')">Social</button>
+          </div>
+
+          <div id="Apuntes" class="tabcontent">
+            <p>London is the capital city of England.</p>
+          </div>
+
+          <div id="Playlist" class="tabcontent">
+            <p>Paris is the capital of France.</p>
+          </div>
+
+          <div id="Libros" class="tabcontent">
+            <p>Tokyo is the capital of Japan.</p>
+          </div>
+
+          <div id="Tareas" class="tabcontent">
+            <p>Tokyo is the capital of Japan.</p>
+          </div>
+
+          <div id="Social" class="tabcontent">
+            <p>Tokyo is the capital of Japan.</p>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <script src="JS/script_main.js"></script>
+  </body>
+</html>
