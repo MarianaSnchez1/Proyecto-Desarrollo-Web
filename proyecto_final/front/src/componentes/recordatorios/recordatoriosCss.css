@@ -1,0 +1,103 @@
+.espacio_arriba{
+	padding-top: 1rem;
+}
+
+.crear_rec{
+	display: inline;
+	float: left;
+	padding-right: 2rem;
+	padding-top: 1rem;
+	background-color: #fca311;
+	border-radius: 10px;
+	box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
+}
+
+#titulo{
+	font-weight: 400;
+	padding-left: 1.5rem;
+}
+
+.datos_recordatorio{
+	font-weight: 300;
+	padding-left: 1.5rem;
+	padding-bottom: 1.5rem;
+}
+
+input[type=text] {
+  padding: 10px;
+  border: none; 
+  margin:10px 0; 
+  border-radius:10px;
+}
+
+input[type=date] {
+  font-weight: 200;
+  color: #c4c4c4;
+  padding: 10px;
+  border: none; 
+  margin:10px 0; 
+  border-radius:10px;
+}
+
+#boton{
+  background-color: #14213d;
+  border-radius:10px;
+  border:  none;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.espacio{
+	padding-left: 2rem;
+	display: inline;
+	float: left;
+}
+
+.ver_rec{
+
+	float: left;
+	width: 25rem;
+
+}
+
+.rec{
+	border-style: solid;
+	border-radius: 10px;
+	border-width: thin;
+	border-color: #14213d;
+	box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
+}
+
+.completada{
+  background-color: #14213d;
+  border-radius:10px;
+  border:  none;
+  color: white;
+  font-size: small;
+  padding: 10px 7px;
+  text-decoration: none;
+  margin: 10px 10px;
+  cursor: pointer;
+
+}
+
+.titulo{
+	font-weight: 350;
+	font-size: 4rem;
+	text-align: center;
+}
+
+.descripcion{
+	font-weight: 30;
+	font-size: 3rem;
+	padding: 1rem;
+}
+
+.fecha{
+	font-weight: 30;
+	font-size: 2rem;
+	padding: 1rem;
+}

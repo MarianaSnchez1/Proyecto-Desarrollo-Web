@@ -1,0 +1,15 @@
+.todo{
+	display: 'block';
+	width: 100rem;
+	padding-top: 3rem;
+	padding-right: 18rem;
+	padding-left: 30rem;
+	padding-bottom: 10rem;
+	font-family: "Quicksand", sans-serif;
+}
+
+.NavB{
+	display: block;
+	background-color: #14213d;
+	height: 5rem;
+}
